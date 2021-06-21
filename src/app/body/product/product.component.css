@@ -1,0 +1,35 @@
+.load{
+    position: absolute;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.banner{
+    position: relative;
+    top: 0;
+    height: 20vh;
+}
+
+.banner h2{
+    margin-top: 6% !important;
+    font-family: PT Sans;
+}
+
+
+
+.k-card-header div{
+    width: 100%;
+}
+
+.k-card-title{
+    font-size: 1vw;
+    font-weight: 500;
+    width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.k-card-title strong{
+    color: tomato;
+}

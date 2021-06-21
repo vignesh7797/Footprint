@@ -29,11 +29,12 @@ export class SourceService {
   setShoes(shoe:Shoe[]){
     this.Shoes = shoe;
     this.ShoesChanged.next(this.Shoes.slice());
-    console.log(this.Shoes);
+    console.log('Database',this.Shoes);
     return this.Shoes.slice();
   }
 
   getFiles(){
+    console.log('getFiles', this.Shoes);
     return of(this.Shoes);
   }
 
@@ -84,16 +85,29 @@ export class SourceService {
     for(let x=0; x<Cat.length; x++){
       
       if(Cat[x].completed){
-        console.log(Cat[x].name);
+       // console.log(Cat[x].name);
        //return this.checked;
         
       }else{
-        console.log(Cat[x].name);
+       // console.log(Cat[x].name);
       }
     }
 
     //console.log(this.checked.value);
     
+    return this.checked.asObservable();
+  }
+
+  setPushCat(){
+    return this.checked.asObservable();
+  }
+  
+  
+  setCategory(){
+    console.log('setCategory', this.category);
+    return this.category.asObservable();
+  }
+  setChecked(){
     return this.checked.asObservable();
   }
 

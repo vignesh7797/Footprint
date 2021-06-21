@@ -1,0 +1,116 @@
+<div class="container-fluid">
+    <div class="row banner justify-content-center k-primary">
+        <h2 class="text-white text-center" [ngClass]="windowWidth>767 ? 'mt-5' : 'm-2'">MEN's LIFESTYLE SHOES</h2>
+    </div>
+
+
+    <div class="row product mt-2">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-12 p-2" *ngFor="let card of sources; let i=index">
+            <kendo-card [width]="'260px'" >
+        
+                <kendo-scrollview
+                
+                *ngIf="card.img"
+                kendoCardMedia
+                [data]="card.img"
+                [width]="'100%'"
+                [height]="'300px'"
+                [arrows]="true"
+                [endless]="true"
+                >
+                <ng-template let-item="item">
+                    <img
+                    src="{{ item }}"
+                    alt=""
+                    [ngStyle]="{ width: '100%' }"
+                    draggable="true"
+                    />
+                </ng-template>
+                </kendo-scrollview>
+    
+                <kendo-card-header class="k-hbox">
+                    <div>
+                    <h1 kendoCardTitle><strong>&#8377; {{ card.prize }}</strong> - {{ card.model }}</h1>
+                    <p kendoCardSubtitle>{{ card.category }}</p>
+                    </div>
+                </kendo-card-header>
+        
+            
+            </kendo-card>
+        </div>
+        
+    </div>
+
+    <div class="row" *ngIf="sources.length==0">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-12 p-2" *ngFor="let skel of skeleton">
+            <kendo-skeleton
+                [shape]="'rectangle'"
+                [animation]="'wave'"
+                [width]="'260px'"
+                [height]="'300px'"
+                ></kendo-skeleton>
+            
+                <kendo-skeleton
+                [shape]="'text'"
+                [animation]="'wave'"
+                [width]="'180px'"
+                [height]="'50px'"
+                ></kendo-skeleton>
+                <kendo-skeleton
+                [shape]="'text'"
+                [animation]="'wave'"
+                [width]="'80px'"
+                ></kendo-skeleton>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="load container-fluid" *ngIf="load">
+    <div class="row justify-content-center" style="height: 100vh;">
+        <div class="col-lg-1 col-md-2 col-4 align-self-center">
+            <kendo-loader type="converging-spinner" themeColor="primary" size="large"></kendo-loader>
+        </div>
+    </div>
+  </div> -->
+
+   
+
+

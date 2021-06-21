@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { DatabaseService } from 'src/app/source/database.service';
 import { Shoe } from 'src/app/source/shoe';
 import { SourceService } from 'src/app/source/source.service';
@@ -34,8 +34,13 @@ export class HomeComponent implements OnInit, AfterViewInit{
     }, 1500)
   }
 
-  ngAfterViewInit(): void {
-    
+
+
+
+  public ngAfterViewInit() {
+   
   }
+
+  
 
 }

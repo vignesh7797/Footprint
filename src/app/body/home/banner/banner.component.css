@@ -35,12 +35,3 @@
 .carousel-control-prev:hover,  .carousel-control-next:hover{
     background: #ff6358;
 }
-
-
-.k-scrollview .k-scrollview-pageable .k-primary {
-    background: #ff6358;
-    width: 55px !important;
-    height: 20px !important;
-    border-radius: 10px !important;
-    transition: 0.5s easy-in-out !important;
-}

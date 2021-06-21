@@ -16,6 +16,8 @@ import { BannerComponent } from './body/home/banner/banner.component';
 import { HomeComponent } from './body/home/home.component';
 import { SocialComponent } from './body/home/social/social.component';
 import { ScrollViewModule } from '@progress/kendo-angular-scrollview';
+import { FooterComponent } from './footer/footer.component';
+import { ProductComponent } from './body/product/product.component';
 
 
 
@@ -29,7 +31,9 @@ import { ScrollViewModule } from '@progress/kendo-angular-scrollview';
     NavbarComponent,
     BannerComponent,
     HomeComponent,
-    SocialComponent
+    SocialComponent,
+    FooterComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
