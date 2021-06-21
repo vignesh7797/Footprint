@@ -1,0 +1,79 @@
+.social{
+    width: 98vw;
+    margin: 0.5vw;
+    font-family: PT Sans;
+}
+
+.twitter{
+    background: #47B8F2;
+    height: 100%;
+    padding: 4%;   
+}
+
+.twitter p{
+    margin-top: 10%;
+    font-size: 1vw;
+}
+
+.twitter h1{
+    margin-top: 15%;
+    font-size: 3vw;
+}
+
+
+.facebook{
+    background: #2740BB;
+    height: 100%;
+    padding: 4%;
+}
+
+.facebook p{
+    margin-top: 10%;
+    font-size: 1vw;
+}
+.facebook h1{
+    font-size: 3vw;
+    margin-top: 15%;
+}
+
+
+.col-md-6{
+    padding:3%;
+}
+
+.tweet{
+    height: 100%;
+}
+
+.carousel .carousel-control-prev{
+    height: 4vh;
+    width: 8%;
+    margin-top: 40%;
+    margin-left: 42%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    font-size: 1.5vw;
+    
+}
+.carousel .carousel-control-next{
+    height: 4vh;
+    width: 8%;
+    margin-top: 40%;
+    margin-right: 42%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+.tweet h5{
+    font-size: 1.5vw;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+}
+.tweet p{
+    font-size: 0.7vw;
+}

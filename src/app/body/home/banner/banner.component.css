@@ -1,0 +1,46 @@
+.banner{
+    width: 99vw;
+}
+
+.carousel-indicators{
+    left: 60% !important;
+    bottom: 5% !important;
+}
+
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: none;
+    transition: 0.5s ease-in-out;
+}
+
+.carousel-indicators .active{
+    background: #fff;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.carousel-control-prev,  .carousel-control-next{
+    height: 10%;
+    width: 5%;
+    top: 40%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 2%;
+} 
+
+.carousel-control-prev:hover,  .carousel-control-next:hover{
+    background: #ff6358;
+}
+
+
+.k-scrollview .k-scrollview-pageable .k-primary {
+    background: #ff6358;
+    width: 55px !important;
+    height: 20px !important;
+    border-radius: 10px !important;
+    transition: 0.5s easy-in-out !important;
+}

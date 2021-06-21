@@ -1,0 +1,27 @@
+:host{
+    position: sticky;
+    width: 100vw;
+}
+
+.k-appbar{
+    height: 10vh;
+    z-index: 10;
+}
+.k-logo{
+    width: 80%;
+}
+
+.k-logo-lg{
+    width: 70%;
+}
+
+.k-svg-icon {
+    width: 3em;
+}
+.k-badge-info{
+    font-size: 1em;
+}
+
+.k-appbar-primary, .k-appbar-inherit{
+    transition: 1s ease-in-out;
+}
