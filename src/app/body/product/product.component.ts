@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { DatabaseService } from 'src/app/source/database.service';
-import { Shoe } from 'src/app/source/shoe';
-import { SourceService } from 'src/app/source/source.service';
+import { DatabaseService } from '../../source/database.service';
+import { Shoe } from '../../source/shoe';
+import { SourceService } from '../../source/source.service';
 
 @Component({
   selector: 'app-product',
